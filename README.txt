@@ -12,3 +12,5 @@
 . At the end, I create a function that fetchs the endpoint  https://join.dev.neta.sh/api/interview-tests/vault-of-sweets
   with the requested headers ('Autorization', 'Candidate-Email') interpolating the uncodeSecretKey()
   in the 'bearer variable.
+
+. The problem is that I cannot guaranty access to the endpoint and get all the HTML tags.
