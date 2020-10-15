@@ -1,4 +1,5 @@
 const getHTMLTags = () => {
+  // 0. This gets all HTML tags not from the endpoint.
   const HTMLTags = document.getElementsByTagName('*');
   //1. Get all tagNames in an Array;
   const allHTMLTags = Array.prototype.slice.call(HTMLTags);
